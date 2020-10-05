@@ -1,0 +1,51 @@
+section{
+    &.meun{
+        margin-top: 50px;
+        h1{
+            font-size: 35px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        .meun-card{
+            margin-top: 50px;
+            
+            .card{
+                border: none;
+                
+              
+                @media (max-width:991px){
+                     margin-top:10px
+                }
+              
+               .card-body{
+                background-color: #999;
+                border-radius: 0%;
+                border:2px solid #000000;
+                box-sizing: border-box;
+                font-size: 15px;
+                   padding: 0;
+                   p{
+                       padding: 5px;
+                       clear: right;
+                   }
+                   .name{
+                       width: 120px;
+                       height: 30px;
+                       float: right;
+                       text-align: center;
+                       border: 2px solid #000000;
+                   }
+                   #meun1{
+                 background-color: #d59898;
+                   }
+                   #meun2{
+                       background-color: #c14543;
+                   }
+                   #meun3{
+                    background-color: #e5d198;
+                   }
+               }
+            }
+        }
+    }
+}
