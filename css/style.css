@@ -1,5 +1,7 @@
 section.meun {
   margin-top: 50px;
+  width: 90%;
+  margin: 50px auto;
 }
 section.meun h1 {
   font-size: 35px;
@@ -9,13 +11,42 @@ section.meun h1 {
 section.meun .meun-card {
   margin-top: 50px;
 }
+@media (max-width: 767px) {
+  section.meun .meun-card {
+    display: block;
+  }
+}
+section.meun .meun-card .one {
+  float: left;
+  width: 30%;
+}
+@media (max-width: 768px) and (min-width: 99px) {
+  section.meun .meun-card .one {
+    width: 40%;
+  }
+}
+section.meun .meun-card .two {
+  float: left;
+  width: 30%;
+}
+@media (max-width: 768px) and (min-width: 99px) {
+  section.meun .meun-card .two {
+    width: 40%;
+  }
+}
+section.meun .meun-card .three {
+  float: right;
+  width: 30%;
+}
+@media (max-width: 768px) and (min-width: 99px) {
+  section.meun .meun-card .three {
+    float: left;
+    width: 86%;
+  }
+}
 section.meun .meun-card .card {
   border: none;
-}
-@media (max-width: 991px) {
-  section.meun .meun-card .card {
-    margin-top: 10px;
-  }
+  margin: 10px 20px;
 }
 section.meun .meun-card .card .card-body {
   background-color: #999;
